@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TextManger</title>
+</head>
+<body>
+<h1>welcome to my first django project TextManger</h1>
+<h1>Enter your text below....</h1>
+<form action='/analyze' method="post">
+    <textarea name='text' style='margin: 0; width: 921px; height:93px;'>
+    </textarea><br>
+    <input type="checkbox" name="removepunc">Remove puntutions <br>
+    <input type="checkbox" name="fullcap">UPPERCASE <br>
+    <input type="checkbox" name="removenewline">New line remove <br>
+    <input type="checkbox" name="charcount">Total character count <br>
+    <input type="checkbox" name="removenumbers">Remove digit <br>
+    <input type="checkbox" name="lowercase">lowercase <br>
+    <button type="submit">anaylyze text</button>
+</form>
+</body>
+</html>
